@@ -5,21 +5,30 @@
 Beautiful &amp; simple parallax effects for your UI  🌁 - Recreate the well-known iOS wallpaper animation by dividing your ViewController in background, middleground and foreground elements which each receive different motionEffects.
 </p>
 <br/><br/>
+
+</div>
+
 <h1>Usage</h1>
 <p style="color: #403956; margin-top: 40px;">
 SimpleParallax works by extending UIView. In order to apply a Parallax-MotionEffect to one of your UIView-objects, simply call one of the following methods:</p><br/>
+
 ⋅⋅* addBackgroundPxEffect()
 ⋅⋅* addMiddlegroundPxEffect()
 ⋅⋅* addForegroundPxEffect()  
+
 <br/><br/>
-<p style="color: #403956; margin-top: 40px;">Furthermore, you can specify the strength of the Parallax-effect: </p>
+<p style="color: #403956; margin-top: 40px;">Furthermore, you can specify the <b>strength</b> of the Parallax-effect: </p>
+
 ```swift
+
 enum ParallaxStrength {
     case Low
     case Mid
     case High
 }  
+
 ```
+
 </br></br>
 <h3>Example implementation in viewdidload():</h3>
 
@@ -38,5 +47,3 @@ override func viewDidLoad() {
         startButton.addForegroundPxEffect(strength: .High)
     }
 ```
-
-</div>
