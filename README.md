@@ -17,7 +17,7 @@ SimpleParallax works by extending UIView. In order to apply a Parallax-MotionEff
 * addForegroundPxEffect()  
 
 <br/>
-<p style="color: #403956; margin-top: 40px;">Furthermore, you can specify the <b>strength</b> of the Parallax-effect: </p>
+<p style="color: #403956; margin-top: 40px;">Furthermore, you can specify the <b>strength</b> of the Parallax-effect: </br>If you don't pass the strength as an argument, <b>.Mid</b> is used by default.</p>
 
 ```swift
 
