@@ -12,11 +12,11 @@ Beautiful &amp; simple parallax effects for your UI  🌁 - Recreate the well-kn
 <p style="color: #403956; margin-top: 40px;">
 SimpleParallax works by extending UIView. In order to apply a Parallax-MotionEffect to one of your UIView-objects, simply call one of the following methods:</p><br/>
 
-⋅⋅* addBackgroundPxEffect()
-⋅⋅* addMiddlegroundPxEffect()
-⋅⋅* addForegroundPxEffect()  
+* addBackgroundPxEffect()
+* addMiddlegroundPxEffect()
+* addForegroundPxEffect()  
 
-<br/><br/>
+<br/>
 <p style="color: #403956; margin-top: 40px;">Furthermore, you can specify the <b>strength</b> of the Parallax-effect: </p>
 
 ```swift
@@ -29,8 +29,8 @@ enum ParallaxStrength {
 
 ```
 
-</br></br>
-<h3>Example implementation in viewdidload():</h3>
+</br>
+<h3>Example implementation in viewDidLoad():</h3>
 
 ```swift
   
