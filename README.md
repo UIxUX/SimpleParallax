@@ -47,3 +47,7 @@ override func viewDidLoad() {
         startButton.addForegroundPxEffect(strength: .High)
     }
 ```
+</br>
+<h3>Installation</h3>
+<p style="color: #403956; margin-top: 40px;">
+Import/copy 📄 <b>SimpleParallax.swift</b> into the directory of your project - Done!</p><br/>
