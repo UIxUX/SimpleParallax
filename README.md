@@ -5,7 +5,7 @@
 Beautiful &amp; simple parallax effects for your UI. 🌁 Perfect for Onboarding & Login/Signup screens - Recreate the well-known iOS wallpaper animation by dividing your ViewController in background, middleground and foreground elements which each receive different motionEffects.
 </p>
 <br/><br/>
-
+<img align=center src="simpleParallaxDemo.gif" alt="SimpleParallax Animation GIF" width="800" height="600">
 </div>
 
 <h1>Usage</h1>
