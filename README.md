@@ -11,11 +11,11 @@ Beautiful &amp; simple parallax effects for your UI. 🌁 Perfect for Onboarding
 <h1>Usage</h1>
 <p style="color: #403956; margin-top: 40px;">
 SimpleParallax works by extending UIView. In order to apply a Parallax-MotionEffect to one of your UIView-objects, simply call one of the following methods:</p><br/>
-<div align=left>
+
 * addBackgroundPxEffect()
 * addMiddlegroundPxEffect()
 * addForegroundPxEffect()  
-</div>
+
 <br/>
 <p style="color: #403956; margin-top: 40px;">Furthermore, you can specify the <b>strength</b> of the Parallax-effect: </br>If you don't pass the strength as an argument, <b>.Mid</b> is used by default.</p>
 
